@@ -1,0 +1,81 @@
+body {
+    background-color: #0b0c10;
+    background-image: url("https://tverisport.ru/wp-content/uploads/2023/07/eksbet.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f2833;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+#bank-info p {
+    font-size: 1.2em;
+    color: #c5c6c7;
+}
+#bet-amount {
+    width: 60px;
+    background-color: #45a29e;
+    color: #0b0c10;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#player, #dealer {
+    flex: 1;
+    background-color: #1f2833;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#player-cards, #dealer-cards {
+    display: flex;
+}
+.card {
+    padding: 10px;
+    margin: 5px;
+    background-color: #c5c6c7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: #0b0c10;
+}
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+.controls button {
+    background-color: #4c953f;
+    color: #0b0c10;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.controls button:hover {
+    background-color: #45a29e;
+}
+#message {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #66fcf1;
+}
